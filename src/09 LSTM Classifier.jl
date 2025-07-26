@@ -89,3 +89,7 @@ for epoch in 1:5
     end
     @printf "Validation: Loss %4.5f Accuracy %4.5f\n" sum(losses) mean(accs)
 end
+
+
+using Plots
+plot(X, Y)
